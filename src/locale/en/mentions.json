@@ -1,0 +1,74 @@
+{
+  "INFO": {
+    "TITLE": "1. Legal Information",
+    "NAME": "Name: ",
+    "ACTIVITY": "Activity: ",
+    "SIERET": "SIRET Number: ",
+    "ADDRESS": "Address: ",
+    "EMAIL": "Email: ",
+    "PHONE": "Phone: "
+  },
+  "HERBERGEMENT": {
+    "TITLE": "2. Hosting",
+    "WHO": "The Link4Reward website is hosted by OVH SAS."
+  },
+  "PROPERTY": {
+    "TITLE": "3. Intellectual Property",
+    "DESCRIPTION": "All content on the Link4Reward website, such as text, images, videos, logos, etc., is protected by intellectual property rights and is the exclusive property of vite-poc.fr or its partners."
+  },
+  "DATA": {
+    "TITLE": "4. Collection of Personal Data",
+    "DESCRIPTION": "Personal data collected on the website is used only within the framework of the services offered by vite-poc and is in no way sold or transmitted to third parties without prior consent. In accordance with current regulations on the protection of personal data, users have the right to access, rectify, and delete their data."
+  },
+  "COOKIE": {
+    "TITLE": "5. Cookies",
+    "DESCRIPTION": "The website uses cookies to improve users' browsing experience and collect anonymous information about their use of the site. Users can configure their browser to disable cookies, but this may affect certain site functionalities."
+  },
+  "LIMIT": {
+    "TITLE": "6. Limitation of Liability",
+    "DESCRIPTION": "vite-poc.fr strives to provide accurate and up-to-date information on the site but cannot guarantee the accuracy, completeness, or relevance of this information. Consequently, inks4rewards.fr declines any responsibility in case of error, inaccuracy, or omission in the information provided on the site."
+  },
+  "JURI": {
+    "TITLE": "7. Applicable Law and Jurisdiction",
+    "DESCRIPTION": "These legal notices are governed by French law. In the event of a dispute, French courts shall have sole jurisdiction."
+  },
+  "CGV": {
+    "DATE": "Last modified on: March 11, 2024.",
+    "OBJECT": {
+      "TITLE": "1. Object",
+      "DESCRIPTION": "These general terms and conditions of sale (T&Cs) govern the conditions under which CLEMENT AE offers its non-automatic subscription services without reimbursement via the vite-poc platform."
+    },
+    "ACCEPTATION": {
+      "TITLE": "2. Acceptance of T&Cs",
+      "DESCRIPTION": "Any subscription to a non-automatic subscription without reimbursement on the vite-poc platform implies the unconditional acceptance of these T&Cs by the user."
+    },
+    "SERVICES": {
+      "TITLE": "3. Services",
+      "DESCRIPTION": "CLEMENT AE offers users of the vite-poc platform a non-automatic subscription service without reimbursement allowing access to premium features, such as the creation of personalized links, reward management, etc."
+    },
+    "TARIFS": {
+      "TITLE": "4. Rates and Payment",
+      "DESCRIPTION": "The rates of non-automatic subscriptions without reimbursement are indicated on the site and must be paid in full in advance. Payment is made according to the terms indicated on the site."
+    },
+    "DUREE": {
+      "TITLE": "5. Duration of Subscription",
+      "DESCRIPTION": "The duration of the non-automatic subscription without reimbursement is set at the time of subscription and cannot be modified. The user has access to premium features for the agreed duration."
+    },
+    "RESILIATION": {
+      "TITLE": "6. Termination",
+      "DESCRIPTION": "The user cannot terminate their subscription before the end of the agreed period, and no reimbursement will be made in case of early termination."
+    },
+    "RESPONSABILITY": {
+      "TITLE": "7. Liability",
+      "DESCRIPTION": "CLEMENT AE strives to provide quality services but cannot guarantee the absence of errors or malfunctions. Consequently, CLEMENT AE declines any liability for direct or indirect damages caused by the use of the services."
+    },
+    "PROPERTY": {
+      "TITLE": "8. Intellectual Property",
+      "DESCRIPTION": "The content on the vite-poc platform, such as text, images, videos, logos, etc., is protected by intellectual property rights and is the exclusive property of CLEMENT AE or its partners."
+    },
+    "DROIT": {
+      "TITLE": "9. Applicable Law and Jurisdiction",
+      "DESCRIPTION": "These T&Cs are governed by French law. In case of dispute, French courts shall have sole jurisdiction."
+    }
+  }
+}

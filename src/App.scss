@@ -1,0 +1,153 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+@import 'app.palette.module.scss';
+@import url('/node_modules/@vagabond-inc/react-boilerplate-app/dist/assets/index.scss');
+
+.notification-list .not-checked span { font-weight: bold; }
+
+th { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.main-container .card-tab {
+  display: flex; flex-direction: column; padding: 0px !important;
+  .MuiCardContent-root { padding: 0 !important; min-height: 54px; margin: 0 !important; }
+}
+
+.offer {
+  h1, h2 { font-size: 2rem !important; text-align: center; }
+  .subtitle { margin-top: 10px; font-size: 1.5rem !important; text-align: center; }
+}
+
+.landing-page {
+  width: 100%; display: flex; flex-direction: column;
+  .landing-curve { background: url('/images/landing-curve.png'); background-size: cover; color: white; } 
+  .welcome {
+    padding: 12% 10px; flex: 1; font-size: 3.5rem; text-align: center; text-shadow: 7px 2px 8px black;
+    letter-spacing: 0.035em; line-height: initial; 
+  }
+  .welcome-subtitle {
+    margin: 40px 0px; flex: 1; font-size: 2rem; text-align: center;
+    letter-spacing: 0.035em; line-height: initial;
+  }
+  p { font-size: 1.2rem !important; }
+  .screen { width: 70% }
+  .screen-text { font-size: 1.6rem; text-align: center }
+  .MuiButtonBase-root:not(.MuiButton-sizeSmall,.MuiAccordionSummary-root) { font-size: 1.5rem !important; }
+  .MuiButtonBase-root.MuiAccordionSummary-root { font-size: 1.1rem !important; }
+  h1:not(.MuiTypography-root), h2:not(.MuiTypography-root){ margin: 50px 10px !important; }
+  .offer {
+    h1 { font-size: 2.5rem !important; margin: 0 0 5px !important; }
+    .subtitle { margin-top: 10px; font-size: 2.5rem; }
+    .button-sub { margin: 40px 20px 15px !important; }
+    svg { width: 1.7em !important; height: 1.7em !important; }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .landing-page {
+    .welcome { padding: 40px 5px; font-size: 2.5rem; }
+    .welcome-subtitle { font-size: 1.5rem; }
+    .screen { width: 95% }
+    .screen-text { margin-top: 50px; }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .landing-page {
+    .welcome { padding: 60px 5px; font-size: 2rem; }
+    .welcome-subtitle { font-size: 1.2rem; }
+  }
+}
+
+/*************************************************** SUBSCRIPTION *******************************************/
+
+.subscription .MuiDivider-root { margin: 15px 0px; }
+
+.main-container .MuiAlert-root { padding: 0px 5px !important; margin: 5px 0px !important; width: 100% !important; }
+.main-container .MuiAlert-message { font-size: 1rem !important; }
+
+.main-container .alert {
+  .MuiAlertTitle-root { font-size: 1.2rem !important; }
+  .MuiAlert-message { font-size: 1.1rem; }
+}
+
+.main-container .alert-small {
+  .MuiAlert-message { display: flex; align-items: center; padding: 0 !important; }
+}
+
+.subscription-container {
+  width: 350px; max-width: 350px; display: flex; flex-direction: column; align-items: center;
+  .MuiPaper-root { border: 3px solid; margin-top: -3px !important; background: rgba(247, 255, 5, 0.228); }
+  .MuiCardContent-root { 
+    font-size: 1.2rem; display: flex; align-items: center;
+    & > div { margin: 5px 0; display: flex; align-items: center; text-align: center; }
+  }
+  .price-container {
+    display: flex; flex-direction: row; justify-content: space-between; width: 91%; margin-bottom: 17px;
+    .price { font-size: 1.5rem; font-weight: bold; align-self: center; }
+    .price-old { font-size: 1.7rem; text-decoration: line-through; align-self: center; }
+  }
+  .MuiSvgIcon-root { height: 25px; width: 25px; }
+  .bonus { font-weight: bold; margin: 10px 0 !important; width: 100%;  & > div:nth-child(2) { width: 80%; } }
+  .button-sub { margin-top: 30px !important; font-size: 1.8rem; padding: 2px 27px; }
+}
+.mode-dark .subscription-container .MuiPaper-root { 
+  background: rgba(204, 190, 121, 0.233); 
+}
+
+@media screen and (max-width: 800px) {
+  .subscription {
+    .flex-row-responsive {
+      img { width: 100%; height: 100%; max-height: 300px !important; }
+      ul { padding-left: 15px; }
+      .alert { width: 100% !important; margin-top: 0px !important; }
+      .subscription-container { margin-top: 10px; }
+    }
+  }
+  .subscription-form {
+    flex-direction: column-reverse !important;
+    & > div { margin-right: 0 !important; width: 100%; }
+  }
+}
+
+/*************************************************** PROFILE *******************************************/
+
+.profile-container {
+  display: flex; flex-direction: column; gap: 1rem; background: #3b3e3f; border-radius: 1rem; border-radius: 5px; margin: 8px; padding: 8px;
+  & > div:nth-child(1) { color: var(--mui-palette-secondary-main); font-weight: bold; }
+  .mode-dark & > div:nth-child(1) { color: var(--mui-palette-secondary-main-dark); }
+  & > div:nth-child(2) {
+    display: flex; justify-content: space-between;
+    & > div { 
+      display: flex; flex-direction: column; 
+      & > span:nth-child(1) { font-weight: bold; color: var(--mui-palette-info-main); }
+      .mode-dark & > span:nth-child(1) { color: var(--mui-palette-info-main-dark); }
+      & > span:nth-child(2) { color: var(--mui-palette-info-main); }
+      .mode-dark & > span:nth-child(2) { color: var(--mui-palette-info-main-dark); }
+    }
+  }
+}
+.mode-light .profile-container { background: #e8e8e8; }
+
+.mui-fixed { padding-right: 0px !important; }
+
+.MuiListItem-root { min-height: 45px; max-height: 80px; }
+
+/*************************************************** DASHBOARD *******************************************/
+
+/*************************************************** ROOT COLORS *******************************************/
+
+:root {
+  --mui-palette-primary-main: #{$primary};
+  --mui-palette-secondary-main: #{$secondary};
+  --mui-palette-info-main: #{$info};
+  --mui-palette-success-main: #{$success};
+  --mui-palette-error-main: #{$error};
+  --mui-palette-primary-main-dark: #{$primary-dark};
+  --mui-palette-secondary-main-dark: #{$secondary-dark};
+  --mui-palette-info-main-dark: #{$info-dark};
+  --mui-palette-success-main-dark: #{$success-dark};
+  --mui-palette-error-main-dark: #{$error-dark};
+}

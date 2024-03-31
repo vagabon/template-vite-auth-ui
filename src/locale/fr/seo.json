@@ -1,0 +1,66 @@
+{
+  "ACCUEIL": {
+    "TITLE": "vite-poc, webapp avec le boilerplate react de vagabond",
+    "DESCRIPTION": "Bienvenue sur vite-poc, une webapp avec le boilerplate react de vagabond"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Souscrire à un abonnement",
+    "DESCRIPTION": "Souscrivez à un abonnement sur vite-poc"
+  },
+  "STRIPE": {
+    "TITLE": "Payer l'abonnement",
+    "DESCRIPTION": "Payer l'abonnement sur vite-poc"
+  },
+  "MENTIONS": {
+    "TITLE": "Mentions légales",
+    "DESCRIPTION": "Mentions légales de vite-poc"
+  },
+  "CGV": {
+    "TITLE": "CGV",
+    "DESCRIPTION": "CGV de vite-poc"
+  },
+  "FAQ": {
+    "TITLE": "FAQ",
+    "DESCRIPTION": "FAQ de vite-poc"
+  },
+  "ADMIN": {
+    "TITLE": "Administration",
+    "DESCRIPTION": "Administration de vite-poc"
+  },
+  "ACTIVATION": {
+    "TITLE": "Activation du compte",
+    "DESCRIPTION": "Activation du compte sur vite-poc"
+  },
+  "IDENTITY": {
+    "TITLE": "Vérification de l'identité",
+    "DESCRIPTION": "Vérification de l'identité sur vite-poc"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE": "Mot de passe oublié",
+    "DESCRIPTION": "Mot de passe oublié sur vite-poc"
+  },
+  "LOGIN": {
+    "TITLE": "Se connecter",
+    "DESCRIPTION": "Se connecter à vite-poc"
+  },
+  "REGISTER": {
+    "TITLE": "Créer un compte",
+    "DESCRIPTION": "Créer un compte sur vite-poc"
+  },
+  "NEWS": {
+    "TITLE": "Actualités",
+    "DESCRIPTION": "Actualités sur vite-poc"
+  },
+  "NOT_FOUND": {
+    "TITLE": "404",
+    "DESCRIPTION": "Page 404 non trouvée sur vite-poc"
+  },
+  "PROFIL": {
+    "TITLE": "Profil",
+    "DESCRIPTION": "Profil sur vite-poc"
+  },
+  "NOTIFICATION": {
+    "TITLE": "Notifications",
+    "DESCRIPTION": "Notifications de vite-poc"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "WELCOME": "Welcome to",
+  "TITLE": "the Vagabond React boilerplate template.",
+  "SUBTITLE": "blablabla subtitle",
+  "PROFILE_PRESENTATION": "Profile Presentation Title",
+  "PROFILE1": "Profile 1",
+  "PROFILE1_ITEM1": "profile 1 text - 1,",
+  "PROFILE1_ITEM2": "profile 1 text - 2,",
+  "PROFILE1_ITEM3": "profile 1 text - 3.",
+  "PROFILE2": "Profile 2",
+  "PROFILE2_ITEM1": "profile 2 text - 1,",
+  "PROFILE2_ITEM2": "profile 2 text - 2,",
+  "PROFILE2_ITEM3": "profile 2 text - 3.",
+  "FAQ": "FAQ"
+}

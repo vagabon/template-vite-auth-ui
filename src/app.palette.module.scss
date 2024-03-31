@@ -1,0 +1,29 @@
+$primary: #067790;
+$secondary: #ea7500;
+$info: #2aaaa0;
+$success: #34873c;
+$error: #b7101e;
+
+$primary-dark: #93b2c9;
+$secondary-dark: #edca84;
+$info-dark: #93c6c2;
+$success-dark: #38aa43;
+$error-dark: #f75464;
+
+$google: #FC6D6D;
+$facebook:#46B8FF;
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  info: $info;
+  success: $success;
+  error: $error;
+  primary-dark: $primary-dark;
+  secondary-dark: $secondary-dark;
+  info-dark: $info-dark;
+  success-dark: $success-dark;
+  error-dark: $error-dark;
+  google: $google;
+  facebook: $facebook;
+}

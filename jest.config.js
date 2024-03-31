@@ -1,0 +1,40 @@
+module.exports = {
+  testEnvironment: 'jest-environment-jsdom',
+  moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
+  roots: ['src'],
+  modulePaths: ['src'],
+  moduleDirectories: ['node_modules', '/src'],
+  moduleNameMapper: {
+    '^.+\\.(css|less|scss)$': 'babel-jest',
+  },
+  transformIgnorePatterns: ['!node_modules/'],
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.tsx'],
+  globals: {
+    IS_REACT_ACT_ENVIRONMENT: true,
+  },
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/node_modules/',
+    '!<rootDir>/**/reportWebVitals.ts',
+    '!<rootDir>/**/setupTests.tsx',
+    '!src/vite-env.d.ts',
+    '!src/**/*Dto.ts',
+    '!src/**/*Router.tsx',
+    '!src/**/*Enum.ts',
+    '!src/**/Store.ts',
+    '!src/**/i18n.js',
+    '!src/reportWebVitals.ts',
+    '!src/**/index.ts*',
+    '!src/**/firebase.ts*',
+    '!src/**/*entry-*.ts*',
+    '!src/**/*Conf*.ts',
+  ],
+  coverageThreshold: {
+    global: {
+      statements: 2,
+      lines: 2,
+      branches: 2,
+      functions: 2,
+    },
+  },
+};

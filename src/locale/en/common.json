@@ -1,0 +1,68 @@
+{
+  "HOME": "Home",
+  "ACCOUNT": "Account",
+  "ACCOUNT_SIGNUP": "Sign Up",
+  "ACCOUNT_SIGNIN": "Sign In",
+  "ACCOUNT_FORGET_PASSWORD": "Forgot Password",
+  "ADMINISTRATION": "Administration",
+  "USER": "User",
+  "SEARCH": "Search",
+  "SEARCH...": "Search...",
+  "SUBMIT": "Submit",
+  "SIGNIN": "Sign In",
+  "PROFILE": "Profile",
+  "LOGOUT": "Logout",
+  "CLOSE": "Close",
+  "NO": "No",
+  "YES": "Yes",
+  "NO_RESULT": "No result",
+  "NO_CLICK": "No click",
+  "ACTIVE": "Active",
+  "DASHBOARD": "Dashboard",
+  "BUY": "Buy",
+  "VALIDATE": "Validate",
+  "REFUSE": "Refuse",
+  "NOTIFICATION": "Notification",
+  "READ_ALL": "Read All",
+  "READ_ALL_CONFIRM": "Do you want to mark all unread notifications as read?",
+  "FAQ_DESCRIPTION": "is an innovative platform designed to connect content creators with their audience through personalized links and rewards.<br/> Below, you'll find answers to common questions about how the platform works for both creators and members.",
+  "ORDER": {
+    "TITLE": "Order",
+    "DATE": "Date",
+    "NB_CLICK": "Nb click"
+  },
+  "FIELDS": {
+    "ID": "Id"
+  },
+  "CONTACT_ME": "To contact me, please write to the following email address: ",
+  "BACk_TO_HOME": "Back to home page",
+  "NOT_FOUND_PAGE": "404 Page",
+  "NOT_FOUND_PAGE_DESCRIPTION": "The page was not found, it is under construction or absent from the site.",
+  "CREATION_OK": "Creation OK",
+  "UPDATE_OK": "Update OK",
+  "DELETE_OK": "Deletion OK",
+  "FORM": {
+    "CREATE": "Creating a ",
+    "UPDATE": "Updating a ",
+    "ERROR": "Error in form"
+  },
+  "CONFIRMATION": {
+    "TITLE": "Alert",
+    "MESSAGE": "Confirm action?"
+  },
+  "GO_TO": "Go to page",
+  "COOKIE": {
+    "TITLE": "This website uses cookies",
+    "DESC": "ryc.vagabond.synology.me relies on cookies to improve your experience.",
+    "BUTTON": {
+      "ALLOW": "Allow All",
+      "REJECT": "Reject ALl"
+    }
+  },
+  "YOUTUBE": "YouTube",
+  "SUBSCRIBERS": "Subscribers",
+  "RULES": {
+    "MAX_CLICK": "10 clicks per minute, 100 clicks per hour, and 1000 clicks per day",
+    "MAX_IMPORT": "1 import per minute, 5 per hour, and 10 per day"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "TITLE": "chatbot",
+  "LOGO": "/images/logo.png",
+  "FOOTER": {
+    "EMAIL": "vagabond.git@gmail.com",
+    "URL": "/mentions",
+    "WEBSITE": "mentions légales",
+    "TARGET": "",
+    "CGV_URL": "/cgv"
+  }
+}

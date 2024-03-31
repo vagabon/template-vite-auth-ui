@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>vite-poc</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="description" content="vite-poc." data-rh="true" />
+    <!-- <link rel="canonical" href="https://" data-rh="true" /> -->
+    <meta property="og:type" content="webapp" />
+    <meta property="og:title" content="vite-pic" />
+    <!-- <meta property="og:image" content="https://vite-poc.fr/images/logo.png" /> -->
+
+    <meta property="og:description" content="vite-poc." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" href="/logo192.png" />
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <meta name="google-adsense-account" content="ca-pub-6760229630893031" />
+
+    <style>
+      .mode-light .MuiPaper-root.mui-fixed {
+        background: white !important;
+      }
+      a {
+        color: inherit !important;
+      }
+      .mui-fixed {
+        overflow: auto;
+        min-height: 48px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+      }
+    </style>
+
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('/firebase-messaging-sw.js')
+          .then((registration) => {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch((error) => {
+            console.error('Service Worker registration failed:', error);
+          });
+      }
+    </script>
+    
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "ACCUEIL": {
+    "TITLE": "vite-poc, webapp with the Vagabond React boilerplate",
+    "DESCRIPTION": "Welcome to vite-poc, a webapp with the Vagabond React boilerplate"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Subscribe to a subscription",
+    "DESCRIPTION": "Subscribe to a subscription on vite-poc"
+  },
+  "STRIPE": {
+    "TITLE": "Pay the subscription",
+    "DESCRIPTION": "Pay the subscription on vite-poc"
+  },
+  "MENTIONS": {
+    "TITLE": "Legal notices",
+    "DESCRIPTION": "Legal notices of vite-poc"
+  },
+  "CGV": {
+    "TITLE": "Terms and Conditions",
+    "DESCRIPTION": "Terms and Conditions of vite-poc"
+  },
+  "FAQ": {
+    "TITLE": "FAQ",
+    "DESCRIPTION": "FAQ of vite-poc"
+  },
+  "ADMIN": {
+    "TITLE": "Administration",
+    "DESCRIPTION": "Administration of vite-poc"
+  },
+  "ACTIVATION": {
+    "TITLE": "Account activation",
+    "DESCRIPTION": "Account activation on vite-poc"
+  },
+  "IDENTITY": {
+    "TITLE": "Identity verification",
+    "DESCRIPTION": "Identity verification on vite-poc"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE": "Forgot password",
+    "DESCRIPTION": "Forgot password on vite-poc"
+  },
+  "LOGIN": {
+    "TITLE": "Log in",
+    "DESCRIPTION": "Log in to vite-poc"
+  },
+  "REGISTER": {
+    "TITLE": "Create an account",
+    "DESCRIPTION": "Create an account on vite-poc"
+  },
+  "NEWS": {
+    "TITLE": "News",
+    "DESCRIPTION": "News on vite-poc"
+  },
+  "NOT_FOUND": {
+    "TITLE": "404",
+    "DESCRIPTION": "404 Page not found on vite-poc"
+  },
+  "PROFIL": {
+    "TITLE": "Profile",
+    "DESCRIPTION": "Profile on vite-poc"
+  },
+  "NOTIFICATION": {
+    "TITLE": "Notifications",
+    "DESCRIPTION": "Notifications of vite-poc"
+  }
+}

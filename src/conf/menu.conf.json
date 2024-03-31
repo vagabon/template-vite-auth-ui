@@ -1,0 +1,61 @@
+[
+  {
+    "title": "HOME",
+    "link": "/",
+    "icon": "home",
+    "roles": []
+  },
+  {
+    "title": "ACCOUNT",
+    "link": "/auth",
+    "icon": "avatar",
+    "roles": [],
+    "notConnected": true,
+    "childrens": [
+      {
+        "title": "ACCOUNT_SIGNUP",
+        "link": "/auth/signup",
+        "icon": "add",
+        "roles": []
+      },
+      {
+        "title": "ACCOUNT_SIGNIN",
+        "link": "/auth/signin",
+        "icon": "login",
+        "roles": []
+      },
+      {
+        "title": "ACCOUNT_FORGET_PASSWORD",
+        "link": "/auth/forget/password",
+        "icon": "password",
+        "roles": []
+      }
+    ]
+  },
+  {
+    "title": "ADMINISTRATION",
+    "link": "/admin",
+    "icon": "admin",
+    "roles": ["ADMIN"],
+    "childrens": [
+      {
+        "title": "USER",
+        "link": "/admin/tab/user",
+        "icon": "user",
+        "roles": ["ADMIN"]
+      },
+      {
+        "title": "PROFILE",
+        "link": "/admin/tab/profile",
+        "icon": "profile",
+        "roles": ["ADMIN"]
+      }
+    ]
+  },
+  {
+    "title": "FAQ",
+    "link": "/faq",
+    "icon": "help",
+    "roles": []
+  }
+]

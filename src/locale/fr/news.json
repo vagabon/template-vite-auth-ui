@@ -1,0 +1,14 @@
+{
+  "TITLE": "News",
+  "UPDATE": "Mise à jour d'une news",
+  "CREATE": "Création d'une news",
+  "FIELDS": {
+    "TITLE": "Titre",
+    "RESUME": "Résumé",
+    "DESCRIPTION": "Description",
+    "AVATAR": "Avatar",
+    "IMAGE": "Image",
+    "TAGS": "Tags",
+    "USER": "Utilisateur"
+  }
+}

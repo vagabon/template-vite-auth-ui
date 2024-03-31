@@ -1,0 +1,123 @@
+{
+  "name": "vite-poc-ui",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "vite --host",
+    "dev": "NODE_ENV=development node --experimental-specifier-resolution=node server.js",
+    "build": "npm run clean && npm run build:app",
+    "clean": "rm -rf dist",
+    "build:app": "vite build --outDir dist",
+    "serve": "NODE_ENV=production node server",
+    "lint": "eslint src --ext .ts,.tsx",
+    "tsc": "tsc",
+    "format": "npm run lint && npm run tsc",
+    "test": "jest ",
+    "coverage": "npm run test -- --coverage ",
+    "ci": "npm run format && npm run coverage -- --testResultsProcessor jest-sonar-reporter",
+    "sonar": "npm run ci && npx sonar-scanner -Dsonar.login=$SONAR_TOKEN",
+    "cypress": "cypress open",
+    "e2e:chrome": "cypress run --browser chrome"
+  },
+  "dependencies": {
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "react-ga4": "~2.1.0",
+    "web-vitals": "~3.5.2"
+  },
+  "devDependencies": {
+    "@vagabond-inc/react-boilerplate-app": "1.0.9",
+    "@vagabond-inc/react-boilerplate-md": "1.0.5",
+    "@babel/preset-env": "~7.24.3",
+    "@babel/preset-react": "~7.24.1",
+    "@babel/preset-typescript": "~7.24.1",
+    "@fontsource/roboto": "~5.0.8",
+    "@stripe/react-stripe-js": "~2.6.2",
+    "@stripe/stripe-js": "~3.1.0",
+    "@testing-library/react": "~14.2.2",
+    "@typescript-eslint/eslint-plugin": "~7.4.0",
+    "@typescript-eslint/parser": "~7.4.0",
+    "@vitejs/plugin-react": "~4.2.1",
+    "babel-jest": "~29.7.0",
+    "cypress": "~13.7.1",
+    "eslint": "~8.57.0",
+    "eslint-plugin-react": "~7.34.1",
+    "eslint-plugin-react-hooks": "~4.6.0",
+    "firebase": "~10.10.0",
+    "jest": "~29.7.0",
+    "jest-environment-jsdom": "~29.7.0",
+    "jest-sonar-reporter": "~2.0.0",
+    "postcss-nesting": "~12.1.0",
+    "sonarqube-scanner": "~3.4.0",
+    "terser": "~5.30.0",
+    "typescript": "~5.4.3",
+    "vite": "~5.2.7",
+    "vite-plugin-eslint": "~1.8.1",
+    "vite-plugin-svgr": "~4.2.0",
+    "vite-tsconfig-paths": "~4.3.2"
+  },
+  "eslintConfig": {
+    "settings": {
+      "react": {
+        "version": "18"
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "react",
+      "react-hooks",
+      "@typescript-eslint"
+    ],
+    "rules": {
+      "react/no-unescaped-entities": "off",
+      "react/prop-types": "off",
+      "no-unsafe-optional-chaining": "off",
+      "@typescript-eslint/triple-slash-reference": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "jsx-a11y/anchor-has-content": "off",
+      "react/react-in-jsx-scope": "off",
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/no-restricted-imports": [
+        "warn",
+        {
+          "name": "react-redux",
+          "importNames": [
+            "useSelector",
+            "useDispatch"
+          ],
+          "message": "Use typed hooks `useAppDispatch` and `useAppSelector` instead."
+        }
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "**/*.test.*",
+    "**/vendor/*.js",
+    "**/store/Store.ts",
+    "**/setupTests.*",
+    "node_modules/**/*.ts?(x)"
+  ],
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-report.xml",
+    "indent": 2
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

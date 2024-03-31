@@ -1,0 +1,30 @@
+{
+  "ERROR": "Error",
+  "TECHNICAL": "Technical Error",
+  "NOT_ALLOWED": "You are not allowed to perform this action!",
+  "FORM_ERROR": "Error in the form",
+  "REQUIRED": "This field is required.",
+  "REGEXP": "The format is invalid.",
+  "FORMAT_PASSWORD": "The password must be at least 8 characters long, with at least 1 digit and 1 special character.",
+  "FORMAT_MAIL": "The format is invalid. (E.g., name@domain.com)",
+  "FORMAT_CODE_POSTAL": "The format is invalid. (E.g., 95001)",
+  "FORMAT_PHONE": "Only numeric characters and the following special characters are allowed: + (as the first character) [ ] ( ).",
+  "FORMAT_WEBSITE": "Please enter a URL starting with https://",
+  "FORMAT_DATE": "Please enter a date in the format 'dd/mm/yyyy'.",
+  "FORMAT_DATE2": "Please enter a date in the format 'mm/yyyy'.",
+  "FORMAT_YEAR": "The format is invalid. (E.g., 2023)",
+  "MIN": "The field must contain at least $1 characters.",
+  "MAX": "The field must not exceed $1 characters.",
+  "SAME": "The fields are not identical.",
+  "SAME_PASSWORD": "The password is not identical. Please enter it again.",
+  "SAME_EMAIL": "The field is not identical to the email. Please check your input.",
+  "NO_ROLE": "You are not authorized to view this content.",
+  "PERCENTAGE_TOO_LONG": "This value cannot exceed 100%.",
+  "S3_BUCKET": {
+    "INPUTSTREAM": "Technical error uploading the file.",
+    "PUT": "Technical error uploading the file.",
+    "DELETE": "Technical error deleting the file."
+  },
+  "PAYMENT_FOUND": "The payment has already been processed.",
+  "TECHNICAL_PASSWORD": "Unable to log you in."
+}

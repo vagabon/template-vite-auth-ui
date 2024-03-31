@@ -1,0 +1,74 @@
+{
+  "INFO": {
+    "TITLE": "1. Informations légales",
+    "NAME": "Nom : ",
+    "ACTIVITY": "Activité : ",
+    "SIERET": "Numéro SIRET : ",
+    "ADDRESS": "Adresse : ",
+    "EMAIL": "Email : ",
+    "PHONE": "Téléphone : "
+  },
+  "HERBERGEMENT": {
+    "TITLE": "2. Hébergement",
+    "WHO": "Le site Link4Reward est hébergé par OVH SAS."
+  },
+  "PROPERTY": {
+    "TITLE": "3. Propriété intellectuelle",
+    "DESCRIPTION": "Tous les contenus présents sur le site Link4Reward, tels que les textes, les images, les vidéos, les logos, etc., sont protégés par le droit de la propriété intellectuelle et sont la propriété exclusive de inks4rewards.fr ou de ses partenaires."
+  },
+  "DATA": {
+    "TITLE": "4. Collecte des données personnelles",
+    "DESCRIPTION": "Les données personnelles collectées sur le site sont utilisées uniquement dans le cadre des services proposés par vite-poc et ne sont en aucun cas vendues ou transmises à des tiers sans consentement préalable. Conformément à la réglementation en vigueur sur la protection des données personnelles, les utilisateurs disposent d'un droit d'accès, de rectification et de suppression de leurs données."
+  },
+  "COOKIE": {
+    "TITLE": "5. Cookies",
+    "DESCRIPTION": "Le site utilise des cookies pour améliorer l'expérience de navigation des utilisateurs et collecter des informations anonymes sur leur utilisation du site. Les utilisateurs peuvent paramétrer leur navigateur pour désactiver les cookies, mais cela peut affecter certaines fonctionnalités du site."
+  },
+  "LIMIT": {
+    "TITLE": "6. Limitation de responsabilité",
+    "DESCRIPTION": "vite-poc.fr s'efforce de fournir des informations précises et à jour sur le site, mais ne peut garantir l'exactitude, l'exhaustivité ou la pertinence de ces informations. En conséquence, inks4rewards.fr décline toute responsabilité en cas d'erreur, d'inexactitude ou d'omission dans les informations fournies sur le site."
+  },
+  "JURI": {
+    "TITLE": "7. Droit applicable et juridiction compétente",
+    "DESCRIPTION": "Les présentes mentions légales sont régies par le droit français. En cas de litige, les tribunaux français seront seuls compétents."
+  },
+  "CGV": {
+    "DATE": "Dernière modification le : 11 mars 2024.",
+    "OBJECT": {
+      "TITLE": "1. Objet",
+      "DESCRIPTION": "Les présentes conditions générales de vente (CGV) régissent les conditions dans lesquelles CLEMENT AE propose ses services d'abonnement non automatique sans remboursement via la plateforme vite-poc."
+    },
+    "ACCEPTATION": {
+      "TITLE": "2. Acceptation des CGV",
+      "DESCRIPTION": "Toute souscription à un abonnement non automatique sans remboursement sur la plateforme vite-poc implique l'acceptation sans réserve des présentes CGV par l'utilisateur."
+    },
+    "SERVICES": {
+      "TITLE": "3. Services",
+      "DESCRIPTION": "CLEMENT AE propose aux utilisateurs de la plateforme vite-poc un service d'abonnement non automatique sans remboursement permettant l'accès à des fonctionnalités premium, telles que la création de liens personnalisés, la gestion des récompenses, etc."
+    },
+    "TARIFS": {
+      "TITLE": "4. Tarifs et paiement",
+      "DESCRIPTION": "Les tarifs des abonnements non automatiques sans remboursement sont indiqués sur le site et doivent être payés intégralement à l'avance. Le paiement s'effectue selon les modalités indiquées sur le site."
+    },
+    "DUREE": {
+      "TITLE": "5. Durée de l'abonnement",
+      "DESCRIPTION": "La durée de l'abonnement non automatique sans remboursement est fixée lors de la souscription et ne peut être modifiée. L'utilisateur a accès aux fonctionnalités premium pour la durée convenue."
+    },
+    "RESILIATION": {
+      "TITLE": "6. Résiliation",
+      "DESCRIPTION": "L'utilisateur ne peut pas résilier son abonnement avant la fin de la période convenue et aucun remboursement ne sera effectué en cas de résiliation anticipée."
+    },
+    "RESPONSABILITY": {
+      "TITLE": "7. Responsabilité",
+      "DESCRIPTION": "CLEMENT AE s'efforce de fournir des services de qualité, mais ne peut garantir l'absence d'erreurs ou de dysfonctionnements. En conséquence, CLEMENT AE décline toute responsabilité en cas de dommages directs ou indirects causés par l'utilisation des services."
+    },
+    "PROPERTY": {
+      "TITLE": "8. Propriété intellectuelle",
+      "DESCRIPTION": "Les contenus présents sur la plateforme vite-poc, tels que les textes, les images, les vidéos, les logos, etc., sont protégés par le droit de la propriété intellectuelle et sont la propriété exclusive de CLEMENT AE ou de ses partenaires."
+    },
+    "DROIT": {
+      "TITLE": "9. Droit applicable et juridiction compétente",
+      "DESCRIPTION": "Les présentes CGV sont régies par le droit français. En cas de litige, les tribunaux français seront seuls compétents."
+    }
+  }
+}
